@@ -10,6 +10,9 @@
 <img src="Resimler/4.png" width="400" height="300" alt="Örnek Resim"/>
 <hr /><h3>Web Uygulaması Öğrenci Menüsü / Öğrenci Listesi Düzenleme </h3>
 <img src="Resimler/5.png" width="400" height="300" alt="Örnek Resim"/>
+<hr /><h3>Web Uygulaması Öğrenci Menüsü / Öğrenci Listesi Silme </h3>
+<img src="Resimler/6.png" width="400" height="300" alt="Örnek Resim"/>
+
 
 
 
