@@ -1,0 +1,46 @@
+
+{% extends 'ogrenci.html' %}
+
+{% block ogrencilisteblogu  %}
+
+<a href="/ogrenci/" class = "btn btn-warning m-2"> Ana sayfaya dön</a> 
+<a href="/ogrenciekle/" class = "btn btn-warning m-2">Yeni Öğrenci Ekle</a>
+<a href="/ogrencilistegorunumu/" class ="btn btn-warning m-2">Liste</a>
+<h1>Öğrenci Listesi</h1>
+
+<table class="table table-striped">
+     <tr>
+        <th>TC</th>
+        <th>ADI SOYADI </th>
+        <th>AÇIKLAMA</th>
+        <th>SINIFI</th>
+        <th>İşlemler-</th>
+        
+    </tr>
+    <tr>
+        {% for x in ogrenciliste1 %}
+        <tr>
+        <td>{{ x.id }} </td>
+        <td> {{ x.AdiSoyadi }} </td> 
+        <td> {{ x.sinif }} </td> 
+        <td>{{ x.Aciklama }}</td>
+
+        <td>
+            <a href="/ogrencilistegorunumu/ogrenciler/detay/{{ x.id }}" class="btn btn-sm btn-outline-secondary"> Detay </a>
+            {% if x.Aciklama == 'deneme' %}
+            <a href="" class="btn btn-sm btn-outline-secondary"> Düzenle </a>
+            {% else %}
+            <a href="" class="btn btn-sm btn-outline-danger"> Sil </a>
+            {% endif %}
+        </td> 
+        
+    </tr>
+        {% endfor %}
+    </table>
+  </div>
+  <div class="col-4">
+    {% block detay %}
+    {% endblock %}
+  </div>
+</div>
+{% endblock %}

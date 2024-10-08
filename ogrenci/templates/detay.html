@@ -1,0 +1,12 @@
+{% extends 'ogrenciler.html'%}
+
+{% block detay %} 
+<!-- <a href="/ogrencilistegorunumu" class="btn btn-primary m-2">Listeye dön</a> -->
+<h1>{{ item.AdiSoyadi }}</h1>
+<p>TC : {{ item.TC }} </p>
+<p>AdiSoyadi : {{ item.AdiSoyadi }}</p>
+<p>Aciklama: {{ item.Aciklama }}</p>
+<p>Sınıf: {{ item.sinif }}</p>
+<p>listeye <a href="">dön</a></p>
+
+{% endblock %}

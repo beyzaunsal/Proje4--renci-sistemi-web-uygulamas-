@@ -1,0 +1,84 @@
+{% extends 'iceren.html' %}
+{% load static %}
+{% block anaicerik %}
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>OTS | Home</title>
+    <link rel="icon" href="https://ubys.ankara.edu.tr/Resources/Cms/logo/30-05-2024-Ankara_%C3%9Cniversitesi_logosu%20(3)-logo.png" /> 
+    <link rel = "stylesheet"
+href ="{% static 'css/maviyap.css'%}">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+    <body>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <center>
+        <!-- <iframe src="https://youtube.com/embed/fHUwbTKauvs&" frameborder ="0" height=200 weight=200></iframe>  -->
+      <p style="background-color:rgb(0, 76, 255)"> ÜNSAL ÜNİVERSİTESİ</p>
+      <h1> OKUL TAKİP SİSTEMİ</h1>
+      <p/.golgeyap>Hoş geldiniz.</p>
+        
+      <div class="divozellikleri">
+        <h2 style="color: rgba(0, 76, 255)">Öğrenci Sayfası</h2>
+        
+        <a href="ogrenci/">
+          <img width= "100px" src="https://www.freeiconspng.com/uploads/school-student-icon-18.png" alt="">
+          <img width="100px" src="{% static 'ogrenciicon1.png' %}" alt="">
+    
+        <br>
+        <a href="ogrenci/">Öğrenci sayfası</a>
+      </div>
+      
+      <div class="divozellikleri">
+        <h2 style="color: rgb(0, 76, 255)">Öğretmen Sayfası</h2>
+      
+        <a href="/ogretmen">
+          <img width="100px" src="https://www.ilicalar.bel.tr/tema/genel/uploads/profiller/personel-2.png" alt="">
+        <br>
+        <a href="/ogretmen">Öğretmen sayfası</a>
+      </div>
+      
+      </center>
+
+      <marquee behavior="" direction=""> Okul Takip Sistemine Hoşgeldiniz</marquee>
+    <style>
+      /* body{
+        background: rgba(178, 216, 252, 0.912);
+    } */
+    </style>
+        </body>
+  </head>
+</html>
+<style>
+ .divozellikleri{
+  background: rgb(193, 224, 244);
+  width: 30%;
+  border-style: solid;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: blue;
+
+  display: inline-block;
+
+  box-shadow: 0px 0px 10px 10px lightslategray;
+ }
+.divozellikleri:hover {color:rgb(0, 76, 255);
+  box-shadow: 0px 0px 10px 10px;
+
+}
+/* h1:hover{color:rgb(0, 76, 255);
+  box-shadow: 0px 0px 10px 10px; */
+
+.golgeyap{
+  box-shadow:  0px 0px 10px 5px ;
+  border: solid blue 2px;
+}
+
+</style>
+
+
+{% endblock %}

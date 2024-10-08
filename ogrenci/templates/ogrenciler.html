@@ -1,0 +1,71 @@
+
+{% extends 'ogrenci.html' %}
+
+
+{% block ogrencilisteblogu  %}
+
+<a href="/ogrenci/" class = "btn btn-warning m-2"> Ana sayfaya dön</a> 
+<a href="/ogrenciekle/" class = "btn btn-warning m-2">Yeni Öğrenci Ekle</a> 
+
+
+<h1>Öğrenci Listesi</h1>
+<div class="row">
+
+<div class="col-8">
+<table class="table table-striped">
+     <tr>
+        <th>TC</th>
+        <th>ADI SOYADI </th>
+        <th>AÇIKLAMA</th>
+        <th>Sınıfı</th>
+        <th>İşlemler</th>
+        <th> Kaldı/Geçti</th>
+    </tr>
+    <tr>
+        {% for x in ogrenciliste1 %}
+        <center>
+        <tr>
+        <td>{{x.TC }} </td>
+        <td> {{x.AdiSoyadi}} </td>
+        <td>{{x.Aciklama}}</td>
+        <td> {{x.sinif}} </td>
+        </center>
+
+        <td>
+            <a href="/ogrenciler/detay/{{ x.id }}" class="btn btn-sm btn-outline-danger"> Detay </a>
+            <a href="/ogrenciler/guncelle/{{ x.id }}" class="btn btn-sm btn-outline-secondary"> Düzenle </a>
+            <a href="/ogrenciler/sil/{{ x.id }}" class="btn btn-sm btn-outline-danger"> Sil </a>
+            
+        </td> 
+        <td>
+            {% if x.Aciklama == 'deneme' %}
+            <p>
+                Geçti  
+                {% include 'bilgi.html' %}
+            </p>
+            {% endif %}
+        </td>
+    </tr>
+    
+        {% endfor %}  
+   
+</table>
+</div> 
+<div class="col-4">
+
+{% block eklemebolumu %}
+{% endblock  %}
+
+
+{% block detay %}
+{% endblock  %}
+
+</div>
+</div>
+{% endblock  %}
+
+
+
+
+
+
