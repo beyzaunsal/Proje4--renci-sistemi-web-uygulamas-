@@ -4,7 +4,7 @@
 Bu Python tabanlı web uygulaması, eğitim kurumlarının öğrenci bilgilerini yönetmelerine yönelik pratik bir çözüm sunmaktadır. Kullanıcı dostu bir arayüze sahip olan bu uygulama, aşağıdaki işlevleri içermektedir:
 <img src="Resimler/1.png" width="400" height="300" alt="Örnek Resim"/>
 <hr /><h3>Web Uygulaması Öğrenci Menüsü</h3>
-&#x1F4CC;<font size="3" face="Tahoma" color="orange">Öğrenci Ana Menüsü Detayları</font>: Öğrenci ana menüsünde öğrenci listesi , öğrenci ekleme, ders programı ve devamsızlık bilgisini gösteren bir menü karşımıza çıkmaktadır. Kullanıcılar istedikleri işlem için gerekli butona basarak işlemlerini tamamlayabilirler.
+&#x1F4CC;<font size="3" face="italic" color="orange">Öğrenci Ana Menüsü Detayları</font>: Öğrenci ana menüsünde öğrenci listesi , öğrenci ekleme, ders programı ve devamsızlık bilgisini gösteren bir menü karşımıza çıkmaktadır. Kullanıcılar istedikleri işlem için gerekli butona basarak işlemlerini tamamlayabilirler.
 <img src="Resimler/2.png" width="400" height="300" alt="Örnek Resim"/>
 <hr /><h3>Web Uygulaması Öğrenci Menüsü / Öğrenci Listesi</h3>
 &#x1F4CC;Öğrenci Listeleme: Kullanıcılar, mevcut tüm öğrencilerin bilgilerini kolayca görüntüleyebilir. Listeleme özelliği, kullanıcıların öğrenci verilerine hızlı erişimini sağlar.
