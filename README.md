@@ -1,8 +1,7 @@
 # WEB Uygulaması
 ## Beyza ÜNSAL
 <hr /><h3>Web Uygulaması Ana Menü</h3>
-Bu Python tabanlı web uygulaması, okul yönetimi için geliştirilmiştir ve kullanıcıların öğrenci bilgilerini etkin bir şekilde yönetmelerine olanak tanır. Uygulama, aşağıdaki temel işlevleri sunmaktadır:
-Öğrenci Ekleme: Yeni öğrencilerin kaydedilmesi için kullanıcı dostu bir arayüz sunulmaktadır. Kullanıcılar, öğrenci bilgilerini girerek sistemde yeni kayıtlar oluşturabilir.
+Bu Python tabanlı web uygulaması, eğitim kurumlarının öğrenci bilgilerini yönetmelerine yönelik pratik bir çözüm sunmaktadır. Kullanıcı dostu bir arayüze sahip olan bu uygulama, aşağıdaki işlevleri içermektedir:
 <img src="Resimler/1.png" width="400" height="300" alt="Örnek Resim"/>
 <hr /><h3>Web Uygulaması Öğrenci Menüsü</h3>
 <img src="Resimler/2.png" width="400" height="300" alt="Örnek Resim"/>
@@ -10,7 +9,7 @@ Bu Python tabanlı web uygulaması, okul yönetimi için geliştirilmiştir ve k
 &#x1F4CC;Öğrenci Listeleme: Kullanıcılar, mevcut tüm öğrencilerin bilgilerini kolayca görüntüleyebilir. Listeleme özelliği, kullanıcıların öğrenci verilerine hızlı erişimini sağlar.
 <img src="Resimler/3.png" width="400" height="300" alt="Örnek Resim"/>
 <hr /><h3>Web Uygulaması Öğrenci Menüsü / Öğrenci Listesi Detay </h3>
-Kullanıcılar, yeni öğrenci kayıtlarının detaylarını görüntülemek için form tabanlı bir arayüz kullanır.Gerekli bilgilerin (TC kimlik numarası, adı, soyadı, sınıf, iletişim bilgileri vb.) hızlıca görüntülemeye olanak tanır.
+&#x1F4CC;Kullanıcılar, yeni öğrenci kayıtlarının detaylarını görüntülemek için form tabanlı bir arayüz kullanır.Gerekli bilgilerin (TC kimlik numarası, adı, soyadı, sınıf, iletişim bilgileri vb.) hızlıca görüntülemeye olanak tanır.
 Eklenen her öğrenci kaydı, anında güncellenen listeye yansır.
 <img src="Resimler/4.png" width="400" height="300" alt="Örnek Resim"/>
 <hr /><h3>Web Uygulaması Öğrenci Menüsü / Öğrenci Listesi Düzenleme </h3>
